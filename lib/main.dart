@@ -21,107 +21,29 @@ class MyApp extends StatelessWidget {
 class Foods extends StatelessWidget {
   final String nama, deskripsi, stock, gambar;
 
-  //buka terminalnya
-  //bentar, tak tanya guru yang pake mac ok pak
-  //bih? nabih?
-  //coba masuk ke menu user maksu
-  //sekarang buka gituhubnya, yang di web
 
+  Foods({Key key, this.nama, this.deskripsi, this.stock, this.gambar})
 
-  Foods
+   
+
+      :
+
+  super
 
   (
 
-  Key
+  key
 
-  ,
+      :
 
   key
 
-  ,
-
-  this
-
-      .
-
-  nama
-
-  ,
-
-  this
-
-      .
-
-  stock
-
-  ,
-
-  this
-
-      .
-
-  deskripsi
-
-  ,
-
-  this
-
-      .
-
-  gambar
-})
-
-
-final String title;
-
-@override
-Widget build
-(
-)
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
+  );
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
-      ),
-      body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: Column(
-
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme
-                  .of(context)
-                  .textTheme
-                  .headline4,
-            ),
-          ],
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
-    );
+  
   }
+
+
 }
